@@ -1,0 +1,2 @@
+/config/mySpringcloud,dev=spring.datasource.username=root
+/config/mySpringcloud,dev=spring.datasource.password=123456
