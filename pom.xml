@@ -140,9 +140,15 @@
 		    <groupId>org.springframework.cloud</groupId>
 		    <artifactId>spring-cloud-starter-openfeign</artifactId>
 		</dependency>
+		<!--添加hystrix库支持断路器 -->
+		<dependency>
+			<groupId>org.springframework.cloud</groupId>
+			<artifactId>spring-cloud-starter-hystrix</artifactId>
+		</dependency>
 
 
-		
+
+
 	</dependencies>
 <!--  -->
 	<dependencyManagement>

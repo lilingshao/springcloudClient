@@ -19,26 +19,8 @@ import java.util.List;
 public class UserCloudServer{
 
     @Autowired
-    UserCloudServerFeign userclient;
-    //服务端项目名
-    @FeignClient(name = "mySpringcloudServer")
-    interface UserCloudServerFeign {
-        @RequestMapping(path = "/userList", method = RequestMethod.GET)
-        @ResponseBody
-        String userList(@RequestParam(required = true, value = "id") String id);
+    UserFeignClient userclient;
 
-        @RequestMapping(path = "/user/2", method = RequestMethod.GET)
-        @ResponseBody
-        String getUserInfo();
-
-        @RequestMapping(path = "/helloworld", method = RequestMethod.GET)
-        @ResponseBody
-        String HelloWorld();
-
-        @RequestMapping(path = "/getUser", method = RequestMethod.GET)
-        @ResponseBody
-        List<User> getUser(@RequestParam(required = true, value = "id") String id);
-    }
     public String getUserInfo(){
         return "";
     }

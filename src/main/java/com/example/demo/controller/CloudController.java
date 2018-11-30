@@ -52,6 +52,7 @@ public class CloudController {
     }
     @RequestMapping(value="/getUser",method = {RequestMethod.GET})
     public List<User> getUser(@RequestParam(required = true, value = "id") String id) {
+    	System.out.println("id=="+id);
 		return helloWorldClient.getUser(id);
 	}
 }
