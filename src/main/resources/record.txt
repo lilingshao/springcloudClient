@@ -2,3 +2,7 @@
  服务端访问: C:\redis 运行cmd redis-cli.exe -h 127.0.0.1 -p 6379
  启动zkui: cd D:\zkui\zkui\target
  	java -jar zkui-2.0-SNAPSHOT-jar-with-dependencies.jar
+
+kafka的jdk版本是: 1.8.0_191
+ 启动kafka:   cd E:\soft\kafka\kafka_2.12-2.1.0
+    命令行中输入: .\bin\windows\kafka-server-start.bat .\config\server.properties

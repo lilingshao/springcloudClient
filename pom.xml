@@ -145,8 +145,24 @@
 			<groupId>org.springframework.cloud</groupId>
 			<artifactId>spring-cloud-starter-hystrix</artifactId>
 		</dependency>
-
-
+		<!-- cloudbus and kafka-->
+		<dependency>
+			<groupId>org.projectlombok</groupId>
+			<artifactId>lombok</artifactId>
+			<optional>true</optional>
+		</dependency>
+		<!--<dependency>-->
+			<!--<groupId>org.springframework.kafka</groupId>-->
+			<!--<artifactId>spring-kafka</artifactId>-->
+		<!--</dependency>-->
+		<!--<dependency>-->
+			<!--<groupId>com.google.code.gson</groupId>-->
+			<!--<artifactId>gson</artifactId>-->
+		<!--</dependency>-->
+		<!--<dependency>-->
+			<!--<groupId>org.springframework.cloud</groupId>-->
+			<!--<artifactId>spring-cloud-starter-bus-kafka</artifactId>-->
+		<!--</dependency>-->
 
 
 	</dependencies>
